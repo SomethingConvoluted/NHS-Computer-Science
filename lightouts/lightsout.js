@@ -69,7 +69,13 @@ toggle('12');
 toggle('4');
 }
 //
-function button9
+function button9() {
+toggle('9')
+toggle('10')
+toggle('13')
+toggle('1')
+}
+//
 </script>
 </head>
 <body>
@@ -110,4 +116,5 @@ function button9
  
 </body>
 </html>
+
 
