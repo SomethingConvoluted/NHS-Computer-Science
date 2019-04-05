@@ -40,42 +40,91 @@ toggle('8');
 }
 //
 function button5() { 
-toggle('5')
-toggle('1')
-toggle('6')
-toggle('9')
+toggle('5');
+toggle('1');
+toggle('6');
+toggle('9');
 }
 //
 function button6() {
-toggle('6')
-toggle('7')
-toggle('10')
-toggle('5')
-toggle('2')
+toggle('6');
+toggle('7');
+toggle('10');
+toggle('5');
+toggle('2');
 }
 //
 function button7() {
-toggle('6')
-toggle('7')
-toggle('8') 
-toggle('3')
-toggle('11')
+toggle('6');
+toggle('7');
+toggle('8');
+toggle('3');
+toggle('11');
 }
 //
 function button8() {
+toggle('4');
 toggle('7');
 toggle('8');
 toggle('12');
-toggle('4');
 }
 //
 function button9() {
-toggle('9')
-toggle('10')
-toggle('13')
-toggle('1')
+toggle('9');
+toggle('10');
+toggle('13');
+toggle('1');
 }
 //
+function button10() {
+toggle('10');
+toggle('6');
+toggle('9');
+toggle('11');
+toggle('14');
+}
+//
+function button11() {
+toggle('11');
+toggle('7');
+toggle('10');
+toggle('12');
+toggle('15');
+}
+//
+function button12() {
+toggle('12');
+toggle('8');
+toggle('11');
+toggle('16');
+}
+//
+function button13() {
+toggle('13');
+toggle('9');
+toggle('14');
+}
+//
+function button14() {
+toggle('14');
+toggle('13');
+toggle('15');
+toggle('10');
+}
+//
+function button15() {
+toggle('15');
+toggle('14');
+toggle('16');
+toggle('11');
+}
+//
+function button16() {
+toggle('16');
+toggle('15');
+toggle('12');
+}
+
 </script>
 </head>
 <body>
@@ -100,14 +149,14 @@ toggle('1')
  <button id="b9" type="button" style='width:50px;height:50px; background-color:red' onclick='button9()'></button>
  <button id="b10" type="button" style='width:50px;height:50px; background-color:red' onclick='button10()'></button>
  <button id="b11" type="button" style='width:50px;height:50px; background-color:red' onclick='button11()'></button>
- <button id="12"type="button" style='width:50px;height:50px; background-color:red' onclick='button12()'></button>
+ <button id="b12"type="button" style='width:50px;height:50px; background-color:red' onclick='button12()'></button>
  </div>
  
  <div>
- <button type="button" style='width:50px;height:50px' onclick='button13()'></button>
- <button type="button" style='width:50px;height:50px' onclick='button1()'></button>
- <button type="button" style='width:50px;height:50px' onclick='button1()'></button>
- <button type="button" style='width:50px;height:50px' onclick='button1()'></button>
+ <button id="b13" type="button" style='width:50px;height:50px; background-color:red' onclick='button13()'></button>
+ <button id="b14" type="button" style='width:50px;height:50px; background-color:red' onclick='button14()'></button>
+ <button id="b15" type="button" style='width:50px;height:50px; background-color:red' onclick='button15()'></button>
+ <button id="b16" type="button" style='width:50px;height:50px; background-color:red' onclick='button16()'></button>
  <div>
  
 
@@ -116,5 +165,4 @@ toggle('1')
  
 </body>
 </html>
-
 
